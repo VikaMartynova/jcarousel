@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.jcarousel-list {
+    width: 10000em;
+    height: 100%;
+    position: relative;
+}
+
+.jcarousel-element {
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 100px;
+}
+.jcarousel-control-prev, .jcarousel-control-next {
+    width: 50px;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    transition: all .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.jcarousel-control-prev{
+    float: left;
+    left: 0;
+}
+
+.jcarousel-control-next {
+    float: right;
+    left: auto;
+    right: 0;
+}
+
